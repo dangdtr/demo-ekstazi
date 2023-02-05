@@ -8,6 +8,8 @@ public class BMI {
      * @return BMI index
      */
     public static String calculateBMI(double weight, double height) {
+        int i = 0;
+        i+=1;
         double bmi = Math.round(weight / (height * height) * 10.0) / 10.0;
         if (bmi < 18.5) {
             return "Thiếu cân";
