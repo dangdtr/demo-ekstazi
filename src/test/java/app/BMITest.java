@@ -1,4 +1,7 @@
+package app;
 import org.junit.Test;
+
+import com.uet.app.BMI;
 
 import static junit.framework.TestCase.assertEquals;
 

@@ -1,20 +1,23 @@
+package app;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.uet.app.D;
+
 import static junit.framework.TestCase.assertEquals;
 
-public class CTest {
-    C objc;
+public class DTest {
+    D objd;
 
     @Before
     public void setUp() throws Exception {
-        objc = new C();
+        objd = new D();
     }
 
 
     @Test
-    public void methodCTest() {
-        assertEquals("method of Class C", objc.methodC());
+    public void methodDTest() {
+        assertEquals("method of Class D", objd.methodD());
     }
 
 }

@@ -1,5 +1,8 @@
+package app;
 
 import org.junit.Test;
+
+import com.uet.app.Calculation;
 
 import static junit.framework.TestCase.assertEquals;
 

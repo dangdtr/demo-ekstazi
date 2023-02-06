@@ -1,4 +1,6 @@
-class A {
+package com.uet.app;
+
+public class A {
     public String methodA() {
 //        int i = 0;
 //        i+=1;
